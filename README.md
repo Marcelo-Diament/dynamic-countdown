@@ -13,7 +13,7 @@ In order to use the Dynamic Countdown, you just need to follow those 2 simple st
 Before closing the `body` tag, just add the following code snippet:
 
 ```html
-<script type="module" src="./index.js"></script>
+<script type="module" src="./node_modules/dynamic-countdown/index.js"></script>
 ```
 
 ### \#02 Create a `.counter` container and add its children
@@ -54,6 +54,12 @@ Each children must alse have the `counter__unit` class declared.
 ## Dymanic-countdown style theme
 
 You can also add extra classes in order to take advantage of the dynamic-countdown theme.
+
+In order to use the dynamic-countdown theme you must add its style too (right before the closing `head` tag):
+
+```html
+<link rel="stylesheet" href="./node_modules/dynamic-countdown/style/style.css">
+```
 
 You can check each possible value (declared below) in the demo version ( `./index.html` ):
 
