@@ -1,6 +1,6 @@
 {
   "name": "dynamic-countdown",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A dynamic countdown package in vanilla javascript",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "vanilla",
     "npm",
     "package",
-    "dynamic countdown"
+    "dynamic countdown",
+    "multilanguage"
   ],
   "author": "Marcelo Diament",
   "license": "ISC",
