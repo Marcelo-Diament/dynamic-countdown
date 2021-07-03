@@ -1,0 +1,327 @@
+:root {
+  --dark: #111;
+  --neutral: #d4d4d4;
+  --light: #eee;
+  --primary: #ea1;
+  --secondary: #1ae;
+  --tertiary: #1ea;
+  --highlight: #e1a;
+  --bg-dark: #111;
+  --bg-neutral: #d4d4d4;
+  --bg-light: #eee;
+  --bg-primary: #f7d588;
+  --bg-secondary: #88d5f7;
+  --bg-tertiary: #88f7d5;
+  --bg-highlight: #f788d5;
+  --font-size: 20px;
+  --font-size-xxs: 14px;
+  --font-size-xs: 16px;
+  --font-size-sm: 18px;
+  --font-size-md: 20px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 40px;
+  --font-size-h1: 64px;
+  --font-size-h2: 56px;
+  --font-size-h3: 48px;
+  --font-size-h4: 40px;
+  --font-size-h5: 32px;
+  --font-size-h6: 24px;
+  --font-size-p: 16px;
+  --font-size-span: inherit;
+  --font-size-small: 14px;
+  --spacing: 16px;
+  --spacing-half: calc(var(--spacing)/2);
+  --spacing-third: calc(var(--spacing)/3);
+  --spacing-quarter: calc(var(--spacing)/4);
+  --spacing-x-two: calc(var(--spacing)*2);
+  --spacing-x-three: calc(var(--spacing)*3);
+  --spacing-x-four: calc(var(--spacing)*4);
+}
+
+.counter {
+  background-color: var(--dark);
+  border: 2px solid var(--light);
+  color: var(--light);
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: var(--font-size-xxl);
+  padding: var(--spacing-half) var(--spacing-half) var(--spacing-x-two);
+  text-align: center;
+}
+
+.counter--light {
+  color: var(--neutral);
+}
+
+.counter--inverted {
+  background-color: var(--light);
+  border: 2px solid var(--dark);
+  color: var(--dark);
+}
+
+.counter--light-inverted {
+  background-color: var(--neutral);
+  border: 2px solid var(--dark);
+  color: var(--dark);
+}
+
+.counter--highlight {
+  color: var(--highlight);
+}
+
+.counter--highlight-light {
+  color: var(--bg-highlight);
+}
+
+.counter--highlight-inverted {
+  background-color: var(--highlight);
+  color: var(--dark);
+}
+
+.counter--highlight-light-inverted {
+  background-color: var(--bg-highlight);
+  color: var(--dark);
+}
+
+.counter--primary {
+  color: var(--primary);
+}
+
+.counter--primary-light {
+  color: var(--bg-primary);
+}
+
+.counter--primary-inverted {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+
+.counter--primary-light-inverted {
+  background-color: var(--bg-primary);
+  color: var(--dark);
+}
+
+.counter--secondary {
+  color: var(--secondary);
+}
+
+.counter--secondary-light {
+  color: var(--bg-secondary);
+}
+
+.counter--secondary-inverted {
+  background-color: var(--secondary);
+  color: var(--dark);
+}
+
+.counter--secondary-light-inverted {
+  background-color: var(--bg-secondary);
+  color: var(--dark);
+}
+
+.counter--tertiary {
+  color: var(--tertiary);
+}
+
+.counter--tertiary-light {
+  color: var(--bg-tertiary);
+}
+
+.counter--tertiary-inverted {
+  background-color: var(--tertiary);
+  color: var(--dark);
+}
+
+.counter--tertiary-light-inverted {
+  background-color: var(--bg-tertiary);
+  color: var(--dark);
+}
+
+.counter__unit {
+  flex: 1 1 auto;
+  margin: var(--spacing-half) var(--spacing);
+  padding: var(--spacing-half) var(--spacing);
+  position: relative;
+}
+
+.counter__unit::after {
+  color: var(--light);
+  display: block;
+  font-size: var(--font-size-xxs);
+  font-weight: 600;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: var(--spacing-x-four);
+}
+
+.counter__unit[data-unit="days"]::after,
+.counter[data-lang^="pt"] .counter__unit[data-unit="days"]::after {
+  content: 'DIAS'
+}
+
+.counter__unit[data-unit="hours"]::after,
+.counter[data-lang^="pt"].counter__unit[data-unit="hours"]::after {
+  content: 'HORAS'
+}
+
+.counter__unit[data-unit="minutes"]::after,
+.counter[data-lang^="pt"].counter__unit[data-unit="minutes"]::after {
+  content: 'MINUTOS'
+}
+
+.counter__unit[data-unit="seconds"]::after,
+.counter[data-lang^="pt"].counter__unit[data-unit="seconds"]::after {
+  content: 'SEGUNDOS'
+}
+
+.counter[data-lang^="en"] .counter__unit[data-unit="days"]::after {
+  content: 'DAYS'
+}
+
+.counter[data-lang^="en"] .counter__unit[data-unit="hours"]::after {
+  content: 'HOURS'
+}
+
+.counter[data-lang^="en"] .counter__unit[data-unit="minutes"]::after {
+  content: 'MINUTES'
+}
+
+.counter[data-lang^="en"] .counter__unit[data-unit="seconds"]::after {
+  content: 'SECONDS'
+}
+
+.counter[data-lang^="es"] .counter__unit[data-unit="days"]::after {
+  content: 'DÍAS'
+}
+
+.counter[data-lang^="es"] .counter__unit[data-unit="hours"]::after {
+  content: 'HORAS'
+}
+
+.counter[data-lang^="es"] .counter__unit[data-unit="minutes"]::after {
+  content: 'MINUTOS'
+}
+
+.counter[data-lang^="es"] .counter__unit[data-unit="seconds"]::after {
+  content: 'SEGUNDOS'
+}
+
+.counter[data-lang^="fr"] .counter__unit[data-unit="days"]::after {
+  content: 'JOURS'
+}
+
+.counter[data-lang^="fr"] .counter__unit[data-unit="hours"]::after {
+  content: 'HEURES'
+}
+
+.counter[data-lang^="fr"] .counter__unit[data-unit="minutes"]::after {
+  content: 'MINUTES'
+}
+
+.counter[data-lang^="fr"] .counter__unit[data-unit="seconds"]::after {
+  content: 'SECONDES'
+}
+
+.counter[data-lang^="it"] .counter__unit[data-unit="days"]::after {
+  content: 'GIORNI'
+}
+
+.counter[data-lang^="it"] .counter__unit[data-unit="hours"]::after {
+  content: 'ORE'
+}
+
+.counter[data-lang^="it"] .counter__unit[data-unit="minutes"]::after {
+  content: 'MINUTI'
+}
+
+.counter[data-lang^="it"] .counter__unit[data-unit="seconds"]::after {
+  content: 'SECONDI'
+}
+
+.counter--highlight .counter__unit::after {
+  color: var(--highlight)
+}
+
+.counter--highlight-light .counter__unit::after {
+  color: var(--bg-highlight)
+}
+
+.counter--primary .counter__unit::after {
+  color: var(--primary)
+}
+
+.counter--primary-light .counter__unit::after {
+  color: var(--bg-primary)
+}
+
+.counter--secondary .counter__unit::after {
+  color: var(--secondary)
+}
+
+.counter--secondary-light .counter__unit::after {
+  color: var(--bg-secondary)
+}
+
+.counter--tertiary .counter__unit::after {
+  color: var(--tertiary)
+}
+
+.counter--tertiary-light .counter__unit::after {
+  color: var(--bg-tertiary)
+}
+
+.counter[class$=-inverted] .counter__unit::before,
+.counter[class$=-inverted] .counter__unit::after {
+  color: var(--dark);
+}
+
+@media only screen and (min-width: 640px) {
+  .counter {
+    flex-flow: row nowrap;
+  }
+
+  .counter__unit:not(:first-child)::before {
+    color: var(--light);
+    content: ':';
+    display: block;
+    font-size: var(--font-size-xl);
+    position: absolute;
+    left: -19px;
+    text-align: center;
+  }
+
+  .counter--highlight .counter__unit::before {
+    color: var(--highlight)
+  }
+
+  .counter--highlight-light .counter__unit::before {
+    color: var(--bg-highlight)
+  }
+
+  .counter--primary .counter__unit::before {
+    color: var(--primary)
+  }
+
+  .counter--primary-light .counter__unit::before {
+    color: var(--bg-primary)
+  }
+
+  .counter--secondary .counter__unit::before {
+    color: var(--secondary)
+  }
+
+  .counter--secondary-light .counter__unit::before {
+    color: var(--bg-secondary)
+  }
+
+  .counter--tertiary .counter__unit::before {
+    color: var(--tertiary)
+  }
+
+  .counter--tertiary-light .counter__unit::before {
+    color: var(--bg-tertiary)
+  }
+}
