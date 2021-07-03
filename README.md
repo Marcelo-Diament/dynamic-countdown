@@ -1,6 +1,6 @@
 # Dynamic Countdown
 
-_Current version: 0.1.0 | Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+_Current version: 0.1.1 | Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
 
 This is a public npm package that aims to make it easier to use countdown by simply adding data attributes to you HTML.
 
