@@ -1,0 +1,32 @@
+{
+  "name": "dynamic-countdown",
+  "version": "0.1.0",
+  "description": "A dynamic countdown package in vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelo-Diament/dynamic-countdown.git"
+  },
+  "keywords": [
+    "countdown",
+    "js",
+    "vanilla",
+    "npm",
+    "package",
+    "dynamic countdown"
+  ],
+  "author": "Marcelo Diament",
+  "license": "ISC",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/Marcelo-Diament/dynamic-countdown/issues"
+  },
+  "homepage": "https://github.com/Marcelo-Diament/dynamic-countdown#readme",
+  "engines": {
+    "node": ">=12.18.4"
+  },
+  "engineStrict": true
+}
