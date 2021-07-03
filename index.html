@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/demo.css">
+</head>
+
+<body>
+  <header>
+    <h1>CountDown Template com JS Puro</h1>
+  </header>
+  <main>
+    <h3 class="mb0 mt7">#01 | Default</h3>
+    <section>
+      <h4 class="mt6 mb4">#01.01 | Counter</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> -</li>
+        <li><b>Classes:</b> counter</li>
+      </ul>
+      <p class="counter" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#01.02 | Counter Light</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> en</li>
+        <li><b>Classes:</b> counter counter--light</li>
+      </ul>
+      <p class="counter counter--light" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="en">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#01.03 | Counter Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> es</li>
+        <li><b>Classes:</b> counter counter--inverted</li>
+      </ul>
+      <p class="counter counter--inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="es">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#01.04 | Counter Light Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> it</li>
+        <li><b>Classes:</b> counter counter--light-inverted</li>
+      </ul>
+      <p class="counter counter--light-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="it">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <h3 class="mb0 mt7">#02 | Highlight</h3>
+    <section>
+      <h4 class="mt6 mb4">#02.01 | Counter Highlight</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> fr</li>
+        <li><b>Classes:</b> counter counter--highlight</li>
+      </ul>
+      <p class="counter counter--highlight" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="fr">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#02.02 | Counter Highlight Light</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> pt</li>
+        <li><b>Classes:</b> counter counter--highlight-light</li>
+      </ul>
+      <p class="counter counter--highlight-light" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="pt">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#02.03 | Counter Highlight Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> en</li>
+        <li><b>Classes:</b> counter counter--highlight-inverted</li>
+      </ul>
+      <p class="counter counter--highlight-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="en">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#02.04 | Counter Highlight Light Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> es</li>
+        <li><b>Classes:</b> counter counter--highlight-light-inverted</li>
+      </ul>
+      <p class="counter counter--highlight-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="es">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <h3 class="mb0 mt7">#03 | Primary</h3>
+    <section>
+      <h4 class="mt6 mb4">#03.01 | Counter Primary</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> it</li>
+        <li><b>Classes:</b> counter counter--primary</li>
+      </ul>
+      <p class="counter counter--primary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="it">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#03.02 | Counter Primary Light</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> fr</li>
+        <li><b>Classes:</b> counter counter--primary-light</li>
+      </ul>
+      <p class="counter counter--primary-light" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="fr">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#03.03 | Counter Primary Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> pt</li>
+        <li><b>Classes:</b> counter counter--primary-inverted</li>
+      </ul>
+      <p class="counter counter--primary-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="pt">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#03.04 | Counter Primary Light Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> en</li>
+        <li><b>Classes:</b> counter counter--primary-light-inverted</li>
+      </ul>
+      <p class="counter counter--primary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="en">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <h3 class="mb0 mt7">#04 | Secondary</h3>
+    <section>
+      <h4 class="mt6 mb4">#04.01 | Counter Secondary</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> es</li>
+        <li><b>Classes:</b> counter counter--secondary</li>
+      </ul>
+      <p class="counter counter--secondary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="es">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#04.02 | Counter Secondary Light</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> it</li>
+        <li><b>Classes:</b> counter counter--secondary-light</li>
+      </ul>
+      <p class="counter counter--secondary-light" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="it">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#04.03 | Counter Secondary Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> fr</li>
+        <li><b>Classes:</b> counter counter--secondary-inverted</li>
+      </ul>
+      <p class="counter counter--secondary-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="fr">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#04.04 | Counter Secondary Light Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> pt</li>
+        <li><b>Classes:</b> counter counter--secondary-light-inverted</li>
+      </ul>
+      <p class="counter counter--secondary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="pt">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <h3 class="mb0 mt7">#05 | Tertiary</h3>
+    <section>
+      <h4 class="mt6 mb4">#05.01 | Counter Tertiary</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> en</li>
+        <li><b>Classes:</b> counter counter--tertiary</li>
+      </ul>
+      <p class="counter counter--tertiary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="en">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#05.02 | Counter Tertiary Light</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> e</li>
+        <li><b>Classes:</b> counter counter--tertiary-light</li>
+      </ul>
+      <p class="counter counter--tertiary-light" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="es">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#05.03 | Counter Tertiary Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> it</li>
+        <li><b>Classes:</b> counter counter--tertiary-inverted</li>
+      </ul>
+      <p class="counter counter--tertiary-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="it">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <section>
+      <h4 class="mt6 mb4">#05.04 | Counter Tertiary Light Inverted</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> DHMS</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> fr</li>
+        <li><b>Classes:</b> counter counter--tertiary-light-inverted</li>
+      </ul>
+      <p class="counter counter--tertiary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="" data-lang="fr">
+        <span data-unit="days" class="counter__unit"></span>
+        <span data-unit="hours" class="counter__unit"></span>
+        <span data-unit="minutes" class="counter__unit"></span>
+        <span data-unit="seconds" class="counter__unit"></span>
+      </p>
+    </section>
+    <h3 class="mb0 mt7">#06 | No details</h3>
+    <section>
+      <h4 class="mt6 mb4">#06.01 | Counter Tertiary</h4>
+      <ul type="none" class="pl0 m0">
+        <li><b>Target Date:</b> 12/31/2021 23:59</li>
+        <li><b>Time Format:</b> -</li>
+        <li><b>Min. Digits:</b> -</li>
+        <li><b>Language:</b> -</li>
+        <li><b>Classes:</b> counter</li>
+      </ul>
+      <p class="counter" data-target-date="12/31/2021 23:59"></p>
+    </section>
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
