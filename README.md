@@ -1,6 +1,6 @@
 # Dynamic Countdown
 
-_Current version: 0.1.1 | Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+_Current version: 0.2.0 | Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
 
 This is a public npm package that aims to make it easier to use countdown by simply adding data attributes to you HTML.
 
@@ -63,7 +63,11 @@ In order to use the dynamic-countdown theme you must add its style too (right be
 
 You can check each possible value (declared below) in the demo version ( `./index.html` ):
 
+### Default Theme
+
 *Tons of grey*
+
+![default-theme](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-default-theme-options.png)
 
 * `.counter--light`
 
@@ -71,7 +75,11 @@ You can check each possible value (declared below) in the demo version ( `./inde
 
 * `.counter--light-inverted`
 
+### Highlight Theme
+
 *Pink and black*
+
+![highlight-theme](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-highlight-theme-options.png)
 
 * `.counter--highlight`
 
@@ -81,7 +89,11 @@ You can check each possible value (declared below) in the demo version ( `./inde
 
 * `.counter---highlight-light-inverted`
 
+### Primary Theme
+
 *Yellow and black*
+
+![primary-theme](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-primary-theme-options.png)
 
 * `.counter--primary`
 
@@ -91,7 +103,11 @@ You can check each possible value (declared below) in the demo version ( `./inde
 
 * `.counter---primary-light-inverted`
 
+### Secondary Theme
+
 *Blue and black*
+
+![secondary-theme](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-secondary-theme-options.png)
 
 * `.counter--secondary`
 
@@ -101,7 +117,11 @@ You can check each possible value (declared below) in the demo version ( `./inde
 
 * `.counter---secondary-light-inverted`
 
+### Tertiary Theme
+
 *Green and black*
+
+![tertiary-theme](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-tertiary-theme-options.png)
 
 * `.counter--tertiary`
 
