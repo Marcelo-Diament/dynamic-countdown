@@ -1,4 +1,4 @@
-# Dynamic Countdown v0.2.2
+# Dynamic Countdown v1.0.0
 
 _Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
 
@@ -6,9 +6,15 @@ This is a public npm package that aims to make it easier to use countdown by sim
 
 ## Getting Started
 
-In order to use the Dynamic Countdown, you just need to follow those 2 simple steps:
+In order to use the Dynamic Countdown, you just need to follow those 3 simple steps:
 
-### \#01 Call the script module to your HTML
+### \#01 Install the package as dependency
+
+```sh
+npm i dynamic-countdown --save
+```
+
+### \#02 Call the script module to your HTML
 
 Before closing the `body` tag, just add the following code snippet:
 
