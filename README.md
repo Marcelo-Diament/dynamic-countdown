@@ -260,6 +260,8 @@ ___
 
 ### v1.0.0
 
+_07/04/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
 **Features**
 
 * `counter()` and `mountCounter()` methods added
