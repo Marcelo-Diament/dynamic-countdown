@@ -5,19 +5,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic CountDown | Theme CheatSheet</title>
+  <title>Dynamic CountDown Theme</title>
   <link rel="stylesheet" href="./style/style.min.css">
   <link rel="stylesheet" href="./style/demo.min.css">
   <style>
+    header a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
     table {
       margin: 16px auto;
     }
+
     th {
       font-weight: bold;
     }
+
     td:first-of-type {
       font-weight: bold;
     }
+
     td {
       padding: 6px;
     }
@@ -25,8 +34,11 @@
 </head>
 
 <body>
-  <header>
-    <h1>Dynamic CountDown | Theme CheatSheet</h1>
+  <header class="mb4">
+    <h1>Dynamic CountDown Theme</h1>
+    <a href="index.html" title="Go to main demo page" class="bg-secondary mb7 p3">Main</a>
+    <a href="https://github.com/Marcelo-Diament/dynamic-countdown" title="Go to repostory" class="bg-primary mb7 p3" target="_blank">Repo</a>
+    <a href="https://www.npmjs.com/package/dynamic-countdown" title="Go to npm" class="bg-tertiary mb7 p3" target="_blank">npm</a>
   </header>
   <main>
     <table>
@@ -43,69 +55,76 @@
         <tr>
           <td>Default</td>
           <td>
-            <div class="counter" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="2" data-lang="en">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--light" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--light" data-target-date="12/31/2021 23:59" data-time-format="DHM" data-min-digits="2" data-lang="es">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
-              <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
+            <div class="counter counter--inverted" data-target-date="12/31/2021 23:59" data-time-format="DH" data-min-digits="2" data-lang="fr">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--light-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
-              <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
+            <div class="counter counter--light-inverted" data-target-date="12/31/2021 23:59" data-time-format="D" data-min-digits="2" data-lang="it">
+              <span data-unit="days" class="counter__unit"></span>
             </div>
           </td>
         </tr>
         <tr>
           <td>Highlight</td>
           <td>
-            <div class="counter counter--highlight" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--highlight" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="2" data-lang="pt">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--highlight-light" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--highlight-light" data-target-date="12/31/2021 23:59" data-time-format="HMS" data-min-digits="2" data-lang="en">
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--highlight-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--highlight-inverted" data-target-date="12/31/2021 23:59" data-time-format="HM" data-min-digits="2" data-lang="es">
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--highlight-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
-              <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
+            <div class="counter counter--highlight-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="H" data-min-digits="2" data-lang="fr">
+              <span data-unit="hours" class="counter__unit"></span>
             </div>
           </td>
         </tr>
         <tr>
           <td>Primary</td>
           <td>
-            <div class="counter counter--primary" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--primary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="2" data-lang="it">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--primary-light" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--primary-light" data-target-date="12/31/2021 23:59" data-time-format="DHM" data-min-digits="2" data-lang="pt">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
@@ -115,35 +134,36 @@
             </div>
           </td>
           <td>
-            <div class="counter counter--primary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--primary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="M" data-min-digits="2" data-lang="es">
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
         </tr>
         <tr>
           <td>Secondary</td>
           <td>
-            <div class="counter counter--secondary" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--secondary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="2" data-lang="fr">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--secondary-light" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--secondary-light" data-target-date="12/31/2021 23:59" data-time-format="HMS" data-min-digits="2" data-lang="it">
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--secondary-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--secondary-inverted" data-target-date="12/31/2021 23:59" data-time-format="HM" data-min-digits="2" data-lang="pt">
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--secondary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
-              <span data-unit="minutes" class="counter__unit"></span>
+            <div class="counter counter--secondary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="S" data-min-digits="2" data-lang="en">
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
@@ -151,27 +171,29 @@
         <tr>
           <td>Tertiary</td>
           <td>
-            <div class="counter counter--tertiary" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--tertiary" data-target-date="12/31/2021 23:59" data-time-format="DHMS" data-min-digits="2" data-lang="es">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
               <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--tertiary-light" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--tertiary-light" data-target-date="12/31/2021 23:59" data-time-format="DHM" data-min-digits="2" data-lang="fr">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--tertiary-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
-              <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
+            <div class="counter counter--tertiary-inverted" data-target-date="12/31/2021 23:59" data-time-format="DH" data-min-digits="2" data-lang="it">
+              <span data-unit="days" class="counter__unit"></span>
+              <span data-unit="hours" class="counter__unit"></span>
             </div>
           </td>
           <td>
-            <div class="counter counter--tertiary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="MS" data-min-digits="2" data-lang="en">
+            <div class="counter counter--tertiary-light-inverted" data-target-date="12/31/2021 23:59" data-time-format="M" data-min-digits="2" data-lang="pt">
               <span data-unit="minutes" class="counter__unit"></span>
-              <span data-unit="seconds" class="counter__unit"></span>
             </div>
           </td>
         </tr>
