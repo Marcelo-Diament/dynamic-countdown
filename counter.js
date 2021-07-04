@@ -1,5 +1,6 @@
 import { consoleMsg } from './helpers/index.js'
 import preset from './inc/preset.js'
+import mountCounter from './inc/mountCounter.js'
 
 const counter = () => {
   const countersElements = document.querySelectorAll('.counter')
@@ -13,4 +14,4 @@ const counter = () => {
   }
 }
 
-export default counter
+export { counter, mountCounter }
