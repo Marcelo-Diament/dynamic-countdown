@@ -3,7 +3,7 @@ import render from "./render.js"
 
 let count
 
-const counterChecker = (counterContainer, targetDate, timeFormat = 'HMS', minDigits = '2') => {
+const counterChecker = (counterContainer, targetDate, timeFormat = 'DHMS', minDigits = '2') => {
   if (!targetDate) {
     consoleMsg('Por favor, inclua o atributo \'data-time-target\' (DHMS) em cada counter.', 'error')
     clearInterval(count)
@@ -19,7 +19,8 @@ const counterChecker = (counterContainer, targetDate, timeFormat = 'HMS', minDig
 }
 
 const initCounter = (counterContainer, minDigits = '2') => {
-  const { targetDate, timeFormat } = counterContainer.dataset
+  let { targetDate, timeFormat } = counterContainer.dataset
+  if (!timeFormat || timeFormat == '') timeFormat = 'DHMS'
   let timeInterval = 1000
   const minorTimeUnit = timeFormat ? timeFormat[timeFormat.length - 1] : 'S'
   switch (minorTimeUnit) {
