@@ -1,4 +1,4 @@
-# Dynamic Countdown v0.2.1
+# Dynamic Countdown v0.2.2
 
 _Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
 

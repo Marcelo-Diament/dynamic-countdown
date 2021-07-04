@@ -1,6 +1,6 @@
 {
   "name": "dynamic-countdown",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A dynamic countdown package in vanilla javascript",
   "main": "index.js",
   "scripts": {
