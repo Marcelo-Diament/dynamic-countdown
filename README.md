@@ -1,3 +1,5 @@
+![theme-options](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-theme-options.png)
+
 # Dynamic Countdown v1.0.0
 
 _Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
