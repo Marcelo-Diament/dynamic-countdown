@@ -2,7 +2,7 @@
 
 # Dynamic Countdown v1.0.0
 
-_Created at July 3rd, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+_Updated at July 4th, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)._
 
 This is a public npm package that aims to make it easier to use countdown by simply adding data attributes to you HTML.
 
@@ -40,6 +40,7 @@ Check our demo [here](https://marcelo-diament.github.io/dynamic-countdown/index.
 
     - [Tertiary](#tertiary)
 
+* [Changelog](#changelog)
 ___
 
 ## Getting Started
@@ -178,10 +179,10 @@ You can also add extra classes in order to take advantage of the dynamic-countdo
 In order to use the dynamic-countdown theme you must add its style too (right before the closing `head` tag):
 
 ```html
-<link rel="stylesheet" href="./node_modules/dynamic-countdown/style/style.css">
+<link rel="stylesheet" href="./node_modules/dynamic-countdown/style/style.min.css">
 ```
 
-Or you may use this other link: `https://marcelo-diament.github.io/dynamic-countdown/style/style.css` .
+Or you may use this other link: `https://marcelo-diament.github.io/dynamic-countdown/style/style.min.css` .
 
 You can check each possible value (declared below) in the demo version ( `./index.html` ):
 
@@ -254,3 +255,69 @@ You can check each possible value (declared below) in the demo version ( `./inde
 * `.counter---tertiary-light-inverted`
 
 ___
+
+## Changelog
+
+### v1.0.0
+
+**Features**
+
+* `counter()` and `mountCounter()` methods added
+
+* `timeFormat` arg as optional
+
+* Theme style minified
+
+* [Main demo page](https://marcelo-diament.github.io/dynamic-countdown/index.html) updated
+
+* [Theme options table page](https://marcelo-diament.github.io/dynamic-countdown/theme-table.html) added to demo
+
+* Documentation updated
+
+### v0.2.2
+
+_07/03/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Bugfixes**
+
+* Extensions added to import statements
+
+### v0.2.1
+
+_07/03/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Bugfixes**
+
+* Documentation updated
+
+### v0.2.0
+
+_07/03/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Features**
+
+* Files structure updated
+
+* Demo updated
+
+* Screenshots added to documentation
+
+* Documentation updated
+
+### v0.1.1
+
+_07/03/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Bugfixes**
+
+* Documentation updated
+
+### v0.1.0
+
+_07/03/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Features**
+
+* Mounts countdown based on HTML data attributes of `.counter` elements
+
+* Documentation
