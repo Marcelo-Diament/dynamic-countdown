@@ -266,7 +266,7 @@ ___
 
 * `timeFormat` arg as optional
 
-* Theme style minified
+* Theme and demo styles minified
 
 * [Main demo page](https://marcelo-diament.github.io/dynamic-countdown/index.html) updated
 
