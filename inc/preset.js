@@ -1,5 +1,5 @@
 import { timeFormatter, consoleMsg } from "../helpers/index.js"
-import render from "./render"
+import render from "./render.js"
 
 let count
 

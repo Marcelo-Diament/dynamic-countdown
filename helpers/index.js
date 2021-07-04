@@ -1,5 +1,5 @@
-import fillWithZero from './fillWithZero'
-import timeFormatter from './timeFormatter'
-import consoleMsg from './consoleMsg'
+import fillWithZero from './fillWithZero.js'
+import timeFormatter from './timeFormatter.js'
+import consoleMsg from './consoleMsg.js'
 
 export { fillWithZero, timeFormatter, consoleMsg }

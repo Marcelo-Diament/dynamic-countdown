@@ -1,5 +1,5 @@
 import { consoleMsg } from './helpers/index.js'
-import preset from './inc/preset'
+import preset from './inc/preset.js'
 
 const counter = () => {
   const countersElements = document.querySelectorAll('.counter')
