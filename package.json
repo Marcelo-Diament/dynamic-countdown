@@ -3,8 +3,8 @@
   "version": "1.2.0",
   "description": "A dynamic countdown package in vanilla javascript",
   "type": "module",
-  "main": "./index.js",
-  "exports": "./index.js",
+  "main": "./index.min.js",
+  "exports": "./index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
