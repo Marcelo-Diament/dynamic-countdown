@@ -1,5 +1,6 @@
 import { consoleMsg } from './helpers/index.js'
-import { counter } from './counter.js'
+import { counter } from './index.js'
+
 
 const init = () => {
   consoleMsg('Visite https://github.com/Marcelo-Diament/js-countdown-template', 'info')
