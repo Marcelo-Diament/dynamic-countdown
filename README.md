@@ -166,7 +166,7 @@ document.querySelector('main').appendChild(myCountdown)
 On your main file, you must import the `counter` method and execute it after window loads:
 
 ```jsx
-import { counter } from './counter.js'
+import { counter } from 'dynamic-countdown'
 window.onload = () => {
     counter()
 }
