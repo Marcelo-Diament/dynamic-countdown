@@ -144,10 +144,8 @@ You can create as many counters as you want to by using the `mountCounter` metho
 
 Firstly, you must import the `counter` to your file:
 
-```js
-import {
-    mountCounter
-} from 'dynamic-countdown'
+```jsx
+import { mountCounter } from 'dynamic-countdown'
 ```
 
 ### MountCountdown
