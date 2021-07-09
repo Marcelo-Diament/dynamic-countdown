@@ -1,8 +1,8 @@
 ![theme-options](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-theme-options.png)
 
-# Dynamic Countdown v1.1.0
+# Dynamic Countdown v1.2.0
 
-_Updated at July 4th, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)._
+_Updated at July 9th, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)._
 
 This is a public [npm package](https://www.npmjs.com/package/dynamic-countdown) that aims to make it easier to use countdown by simply adding data attributes to you HTML.
 
@@ -257,6 +257,18 @@ You can check each possible value (declared below) in the demo version ( `./inde
 ___
 
 ## Changelog
+
+### v1.2.0
+
+_07/09/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Features**
+
+* Main script renamed (and imports updated)
+
+* Export updated
+
+* Documentation updated
 
 ### v1.1.0
 
