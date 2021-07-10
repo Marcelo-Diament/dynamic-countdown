@@ -193,3 +193,4 @@ const countdown = { counter, mountCounter }
 
 export default countdown
 export { counter, mountCounter }
+module.exports = countdown
