@@ -1,6 +1,6 @@
 ![theme-options](https://raw.githubusercontent.com/Marcelo-Diament/dynamic-countdown/main/img/counter-theme-options.png)
 
-# Dynamic Countdown v1.4.1
+# Dynamic Countdown v1.4.2
 
 _Updated at July 9th, 2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)._
 
@@ -257,6 +257,14 @@ You can check each possible value (declared below) in the demo version ( `./inde
 ___
 
 ## Changelog
+
+### v1.4.2
+
+_07/09/2021 by [Marcelo Diament](https://github.com/Marcelo-Diament/)_
+
+**Bugfixes**
+
+* Remove module export
 
 ### v1.4.1
 
